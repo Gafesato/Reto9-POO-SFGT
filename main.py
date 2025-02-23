@@ -16,7 +16,7 @@ def main():
     print("-"*20)
     rectangle = Rectangle(1, p1, p2, p3, p4)
     print("------------")
-    print(f"Área del rectángulo: {rectangle.compute_area()}")
+    print(f"Área del rectángulo: {rectangle.compute_area}")
     print(f"Perímetro del rectángulo: {rectangle.compute_perimeter()}")
     print(f"Ángulos internos del rectángulo: {rectangle.compute_inner_angles()}")
     
