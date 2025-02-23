@@ -30,6 +30,7 @@ class Rectangle(Shape):
         angles = self.compute_inner_angles()
         return all(int(angle) == 90 for angle in angles)
 
+    @property
     @timing_counter
     def compute_area(self) -> float:
         return self._width * self._height
